@@ -6,8 +6,14 @@
 // git config --list (ver email e nome)
 // criar uma chave SSH e adcionar o github
 // code . abre o vs code
+// git log (vê todos os commits e seus códigos)
 // git log --oneline (serve para ver até onde está salvo o projeto)
 // git status (pode ser untracked = arquivo criado, deleted, modifield)
 // git reset (desfazer alterações locais no estado de um repositório do Git)
 // clear (limpa o git) 
 // add <arquivo que gostaria de salvar> (para adicionar só a modificação que quer)
+// git diff <arquivo que modificou> (irá mostrar tudoq ue foi alterado no arquivo)
+// git checkout <código do commit> (modifica temporariamente os arquivos(volta no commit que vc quiser))
+// git checkout HEAD~1 (volta no penúltimo commit, podendo voltar quantos quiser)
+// (caso tenha feito alguma modificação e não consiga alterar o checkout e queira voltar no último comit use: git reset, git clean -df e git checkout -- .)
+// Arquivo .gitignore (arquivos que não devem ser salvos no git e devem ser ignorados como por exemplo: arquivos compilados, arquivos de bibliotecas externas usadas no projeto, arquivos de configuração da sua IDE, arquivos de configuração do seu sistema)
