@@ -1,5 +1,5 @@
 // git init
-// git remote add origin "repositório"
+// git remote add origin <repositório>
 // git push -u (depois de criar algum commit)
 // git fetch --all para baixar todas as branchs 
 // git pull origin master --allow-unrelated-histories
@@ -7,3 +7,7 @@
 // criar uma chave SSH e adcionar o github
 // code . abre o vs code
 // git log --oneline (serve para ver até onde está salvo o projeto)
+// git status (pode ser untracked = arquivo criado, deleted, modifield)
+// git reset (desfazer alterações locais no estado de um repositório do Git)
+// clear (limpa o git) 
+// add <arquivo que gostaria de salvar> (para adicionar só a modificação que quer)
