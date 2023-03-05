@@ -17,3 +17,9 @@
 // git checkout HEAD~1 (volta no penúltimo commit, podendo voltar quantos quiser)
 // (caso tenha feito alguma modificação e não consiga alterar o checkout e queira voltar no último comit use: git reset, git clean -df e git checkout -- .)
 // Arquivo .gitignore (arquivos que não devem ser salvos no git e devem ser ignorados como por exemplo: arquivos compilados, arquivos de bibliotecas externas usadas no projeto, arquivos de configuração da sua IDE, arquivos de configuração do seu sistema)
+// git reset --soft HEAD~1 (desfaz o último commit apenas sem fazer modificação geral)
+// git reset --hard <código do commit> (volta o projeto ao estado de um dado commit (deletar commits e alterações posteriores a esse commit))
+// git reset --hard HEAD~1 (volta o projeto ao estado do penúltimo commit)
+// git pull origin main (recupera oq está no repositório remoto)
+// git push -f <nome do remote> <nome do branch> (sobrescreve um histórico no github)
+// git remote set-url origin <link repositório> (Esse comando troca o repositório que estava apontando anteriormente, troca a referência do origin) logo após isso, dê o git push -u origin main que vai estar no repositório novo tudo que estava no antigo
